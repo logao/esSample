@@ -1,0 +1,81 @@
+{
+  "access_token": "2dde45eacf8132d9c17671d485d963fa",
+  "request_body": {
+    "from": 0,
+    "query": {
+      "bool": {
+        "must": {
+          "bool": {
+            "must": [
+              {
+                "range": {
+                  "d": {
+                    "from": "2017-09-01",
+                    "to": null,
+                    "include_lower": true,
+                    "include_upper": true
+                  }
+                }
+              },
+              {
+                "range": {
+                  "d": {
+                    "from": null,
+                    "to": "2017-09-12",
+                    "include_lower": true,
+                    "include_upper": true
+                  }
+                }
+              },
+              {
+                "match": {
+                  "pageid": {
+                    "query": "10312901",
+                    "type": "phrase"
+                  }
+                }
+              },
+              {
+                "match": {
+                  "isctriplastpv": {
+                    "query": "true",
+                    "type": "phrase"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "_source": {
+      "includes": [
+        "d",
+        "COUNT",
+        "COUNT"
+      ],
+      "excludes": []
+    },
+    "stored_fields": "vid",
+    "aggs": {
+      "vid": {
+        "terms": {
+          "field": "vid",
+          "size": 100
+        },
+        "aggs": {
+          "pv": {
+            "value_count": {
+              "field": "_index"
+            }
+          }
+        }
+      },
+      "ext_pv_stats": {
+        "extended_stats_bucket": {
+          "buckets_path": "vid>pv"
+        }
+      }
+    }
+  }
+}
