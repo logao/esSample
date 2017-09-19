@@ -1,0 +1,379 @@
+{
+  "took": 6249,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "failed": 0
+  },
+  "hits": {
+    "total": 36,
+    "max_score": 14.108579,
+    "hits": [
+      {
+        "_index": "vacation-pv-online-2017.09",
+        "_type": "logs",
+        "_id": "1501590353842.433wgm-3-28",
+        "_score": 14.108579,
+        "_source": {
+          "d": "2017-09-01"
+        }
+      },
+      {
+        "_index": "vacation-pv-online-2017.09",
+        "_type": "logs",
+        "_id": "1436451063750.2rkzpq-31-736",
+        "_score": 14.108579,
+        "_source": {
+          "d": "2017-09-02"
+        }
+      },
+      {
+        "_index": "vacation-pv-online-2017.09",
+        "_type": "logs",
+        "_id": "1417585761177.4dwo8q-69-1131",
+        "_score": 14.108579,
+        "_source": {
+          "d": "2017-09-02"
+        }
+      },
+      {
+        "_index": "vacation-pv-online-2017.09",
+        "_type": "logs",
+        "_id": "1502197982602.1j3kdq-3-40",
+        "_score": 14.108579,
+        "_source": {
+          "d": "2017-09-02"
+        }
+      },
+      {
+        "_index": "vacation-pv-online-2017.09",
+        "_type": "logs",
+        "_id": "1504243668448.1mbulm-2-33",
+        "_score": 14.108579,
+        "_source": {
+          "d": "2017-09-02"
+        }
+      },
+      {
+        "_index": "vacation-pv-online-2017.09",
+        "_type": "logs",
+        "_id": "1436520677183.435fl3-20-296",
+        "_score": 14.108579,
+        "_source": {
+          "d": "2017-09-02"
+        }
+      },
+      {
+        "_index": "vacation-pv-online-2017.09",
+        "_type": "logs",
+        "_id": "1456147382328.2yf7rx-16-125",
+        "_score": 14.108579,
+        "_source": {
+          "d": "2017-09-02"
+        }
+      },
+      {
+        "_index": "vacation-pv-online-2017.09",
+        "_type": "logs",
+        "_id": "1420098317247.44yx7i-14-163",
+        "_score": 14.108579,
+        "_source": {
+          "d": "2017-09-02"
+        }
+      },
+      {
+        "_index": "vacation-pv-online-2017.09",
+        "_type": "logs",
+        "_id": "1504323963465.3d9h76-1-32",
+        "_score": 14.108579,
+        "_source": {
+          "d": "2017-09-02"
+        }
+      },
+      {
+        "_index": "vacation-pv-online-2017.09",
+        "_type": "logs",
+        "_id": "1504352555714.3z2gz7-1-4",
+        "_score": 14.108579,
+        "_source": {
+          "d": "2017-09-02"
+        }
+      }
+    ]
+  },
+  "aggregations": {
+    "vid": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0,
+      "buckets": [
+        {
+          "key": "1417585761177.4dwo8q",
+          "doc_count": 1,
+          "pv": {
+            "value": 1
+          }
+        },
+        {
+          "key": "1420098317247.44yx7i",
+          "doc_count": 1,
+          "pv": {
+            "value": 1
+          }
+        },
+        {
+          "key": "1436451063750.2rkzpq",
+          "doc_count": 1,
+          "pv": {
+            "value": 1
+          }
+        },
+        {
+          "key": "1436520677183.435fl3",
+          "doc_count": 1,
+          "pv": {
+            "value": 1
+          }
+        },
+        {
+          "key": "1439468917921.2rny62",
+          "doc_count": 1,
+          "pv": {
+            "value": 1
+          }
+        },
+        {
+          "key": "1449416353028.u71li",
+          "doc_count": 1,
+          "pv": {
+            "value": 1
+          }
+        },
+        {
+          "key": "1456147382328.2yf7rx",
+          "doc_count": 1,
+          "pv": {
+            "value": 1
+          }
+        },
+        {
+          "key": "1463884030955.42rie2",
+          "doc_count": 1,
+          "pv": {
+            "value": 1
+          }
+        },
+        {
+          "key": "1472958645068.2y4zcv",
+          "doc_count": 1,
+          "pv": {
+            "value": 1
+          }
+        },
+        {
+          "key": "1487216042876.kw13a",
+          "doc_count": 1,
+          "pv": {
+            "value": 1
+          }
+        },
+        {
+          "key": "1487901582506.ribi3",
+          "doc_count": 1,
+          "pv": {
+            "value": 1
+          }
+        },
+        {
+          "key": "1491964193805.4b3y5n",
+          "doc_count": 1,
+          "pv": {
+            "value": 1
+          }
+        },
+        {
+          "key": "1498216337403.2mvsg4",
+          "doc_count": 1,
+          "pv": {
+            "value": 1
+          }
+        },
+        {
+          "key": "1499673328873.4a3qhf",
+          "doc_count": 1,
+          "pv": {
+            "value": 1
+          }
+        },
+        {
+          "key": "1500706930518.2w5hrq",
+          "doc_count": 1,
+          "pv": {
+            "value": 1
+          }
+        },
+        {
+          "key": "1500802787795.2yzf4b",
+          "doc_count": 1,
+          "pv": {
+            "value": 1
+          }
+        },
+        {
+          "key": "1501590353842.433wgm",
+          "doc_count": 1,
+          "pv": {
+            "value": 1
+          }
+        },
+        {
+          "key": "1502197982602.1j3kdq",
+          "doc_count": 1,
+          "pv": {
+            "value": 1
+          }
+        },
+        {
+          "key": "1503012452342.36mpor",
+          "doc_count": 1,
+          "pv": {
+            "value": 1
+          }
+        },
+        {
+          "key": "1503389867448.498pdg",
+          "doc_count": 1,
+          "pv": {
+            "value": 1
+          }
+        },
+        {
+          "key": "1503722874651.2i0umu",
+          "doc_count": 1,
+          "pv": {
+            "value": 1
+          }
+        },
+        {
+          "key": "1503997019352.3lqu0y",
+          "doc_count": 1,
+          "pv": {
+            "value": 1
+          }
+        },
+        {
+          "key": "1504144624619.111b47",
+          "doc_count": 1,
+          "pv": {
+            "value": 1
+          }
+        },
+        {
+          "key": "1504230474751.2kuth5",
+          "doc_count": 1,
+          "pv": {
+            "value": 1
+          }
+        },
+        {
+          "key": "1504231990090.1b1n9h",
+          "doc_count": 1,
+          "pv": {
+            "value": 1
+          }
+        },
+        {
+          "key": "1504240540999.3yayz7",
+          "doc_count": 1,
+          "pv": {
+            "value": 1
+          }
+        },
+        {
+          "key": "1504243668448.1mbulm",
+          "doc_count": 1,
+          "pv": {
+            "value": 1
+          }
+        },
+        {
+          "key": "1504244759729.3oz87r",
+          "doc_count": 1,
+          "pv": {
+            "value": 1
+          }
+        },
+        {
+          "key": "1504258487501.2xlrha",
+          "doc_count": 1,
+          "pv": {
+            "value": 1
+          }
+        },
+        {
+          "key": "1504276347151.3nv6xd",
+          "doc_count": 1,
+          "pv": {
+            "value": 1
+          }
+        },
+        {
+          "key": "1504281263463.4c2y6z",
+          "doc_count": 1,
+          "pv": {
+            "value": 1
+          }
+        },
+        {
+          "key": "1504313883076.3bi8pu",
+          "doc_count": 1,
+          "pv": {
+            "value": 1
+          }
+        },
+        {
+          "key": "1504323963465.3d9h76",
+          "doc_count": 1,
+          "pv": {
+            "value": 1
+          }
+        },
+        {
+          "key": "1504338202859.vu5vw",
+          "doc_count": 1,
+          "pv": {
+            "value": 1
+          }
+        },
+        {
+          "key": "1504351700279.38seqr",
+          "doc_count": 1,
+          "pv": {
+            "value": 1
+          }
+        },
+        {
+          "key": "1504352555714.3z2gz7",
+          "doc_count": 1,
+          "pv": {
+            "value": 1
+          }
+        }
+      ]
+    },
+    "ext_pv_stats": {
+      "count": 36,
+      "min": 1,
+      "max": 1,
+      "avg": 1,
+      "sum": 36,
+      "sum_of_squares": 36,
+      "variance": 0,
+      "std_deviation": 0,
+      "std_deviation_bounds": {
+        "upper": 1,
+        "lower": 1
+      }
+    }
+  }
+}
